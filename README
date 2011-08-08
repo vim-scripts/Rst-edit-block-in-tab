@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3688
+
+This script allows you to edit the contents of an reST directive block in a new tab.
+
+Put your cursor in or on the block and hit \e. A new tab will open with just the content of the block. The previous buffer will be set nomodifiable. When you are done, hit q (or you can change the key) and the content will be replaced back in to the original buffer.
